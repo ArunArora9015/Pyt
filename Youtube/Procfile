@@ -1,1 +1,4 @@
+web: pip install flask
+web: pip install re
+web: pip install google-api-python-client
 web: python app.py
