@@ -84,5 +84,3 @@ def extract_video_id(url):
     match = re.search(r'(youtu\.be/|youtube\.com/shorts/|youtube\.com/live/)([^&?/]+)', url)
     return match.group(2) if match else None
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=80)
