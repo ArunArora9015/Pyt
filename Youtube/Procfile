@@ -1,4 +1,2 @@
-web: pip3 install flask
-web: pip3 install re
-web: pip3 install google-api-python-client
+web: pip3 install flask requests google-api-python-client
 web: python app.py
